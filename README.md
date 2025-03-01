@@ -48,4 +48,7 @@ for creating NewColumn following DAX expression was written;
             ('online_sales_dataset'[TotalSales]/'online_sales_dataset'[ExchangeRate]),
             ('online_sales_dataset'[TotalSales]*'online_sales_dataset'[ExchangeRate]))
     ) 
+
+    ![Image](https://github.com/user-attachments/assets/8a8de106-51cf-4565-a35d-5620026df406)![Sales_column](https://github.com/user-attachments/assets/522f65af-79ca-46df-8433-9e7dfaa20110)
+
     
