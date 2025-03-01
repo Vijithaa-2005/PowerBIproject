@@ -100,6 +100,11 @@ for creating NewColumn following DAX expression was written;
 ![Screenshot (172)](https://github.com/user-attachments/assets/e09a1e73-b9db-41d1-a5f1-1a72d01be064)
 
 
+# Demo Videos
+
+https://github.com/Vijithaa-2005/PowerBIproject/blob/e0bf941e30819a51b0b756d5c361e5b907d021e4/E-Commerce.mp4
+
+
 
 
 
