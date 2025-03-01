@@ -49,6 +49,14 @@ for creating NewColumn following DAX expression was written;
             ('online_sales_dataset'[TotalSales]*'online_sales_dataset'[ExchangeRate]))
     ) 
 
-    ![Image](https://github.com/user-attachments/assets/8a8de106-51cf-4565-a35d-5620026df406)![Sales_column](https://github.com/user-attachments/assets/522f65af-79ca-46df-8433-9e7dfaa20110)
+   # Images
+   ![Sales_column](https://github.com/user-attachments/assets/8152965c-3be4-4a74-9bdf-6030e73fb92b)
+
+  Step 15 : NewTable was created to find Currency Conversion for each Country.
+
+  ![Currency_Conversion_Table](https://github.com/user-attachments/assets/84fde81c-7a5c-4ec3-9606-95ba66202664)
+
+
+
 
     
