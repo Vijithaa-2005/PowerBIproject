@@ -95,6 +95,12 @@ for creating NewColumn following DAX expression was written;
 ![Dashboard_snapshot](https://github.com/user-attachments/assets/fd918d3c-5169-4047-8dee-82af85ff356e)
 
 
+# Dasboard Preview(PowerBI Desktop)
+
+![Screenshot (172)](https://github.com/user-attachments/assets/e09a1e73-b9db-41d1-a5f1-1a72d01be064)
+
+
+
 
 
 
