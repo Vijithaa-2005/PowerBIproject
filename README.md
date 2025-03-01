@@ -60,6 +60,9 @@ for creating NewColumn following DAX expression was written;
 
 ![DateTable](https://github.com/user-attachments/assets/ec3310cc-f9ab-4202-a1db-82883dffb032)
 
+
+Step 16:New Meaure was created to find the Profits to USD
+
 Profit in USD Measure = 
 SUMX(
     online_sales_dataset,
@@ -69,6 +72,14 @@ SUMX(
         online_sales_dataset[Net Income] * online_sales_dataset[ExchangeRate]
     )
 )
+
+Sales in USD =
+SUMX(
+        'online_sales_dataset',
+        IF('online_sales_dataset'[ExchangeRate]>1,
+        ('online_sales_dataset'[TotalSales]/'online_sales_dataset'[ExchangeRate]),
+        ('online_sales_dataset'[TotalSales]*'online_sales_dataset'[ExchangeRate]))
+) 
 
 
 
