@@ -52,11 +52,12 @@ for creating NewColumn following DAX expression was written;
    # Images
    ![Sales_column](https://github.com/user-attachments/assets/8152965c-3be4-4a74-9bdf-6030e73fb92b)
 
-  Step 15 : NewTable was created to find Currency Conversion for each Country.
+  Step 14 : NewTable was created to find Currency Conversion for each Country.
 
   ![Currency_Conversion_Table](https://github.com/user-attachments/assets/84fde81c-7a5c-4ec3-9606-95ba66202664)
 
-  Step 15 : NewTable was created to find Currency Conversion for each Country.
+  
+  Step 15 : Create a NewTable named DateTable for Time-Series Forecasting.
 
 ![DateTable](https://github.com/user-attachments/assets/ec3310cc-f9ab-4202-a1db-82883dffb032)
 
@@ -72,7 +73,18 @@ for creating NewColumn following DAX expression was written;
             ('online_sales_dataset'[Net Income]/'online_sales_dataset'[ExchangeRate]),
             ('online_sales_dataset'[Net Income]*'online_sales_dataset'[ExchangeRate]))
     ) 
-    
+
+Step 17 : Create a Newcolumn named Profit in USD convert the currency to Dollars
+
+for creating NewColumn following DAX expression was written;
+
+    ShippingCost in USD =
+    SUMX(
+            'online_sales_dataset',
+            IF('online_sales_dataset'[ExchangeRate]>1,
+            ('online_sales_dataset'[ShippingCost]/'online_sales_dataset'[ExchangeRate]),
+            ('online_sales_dataset'[ShippingCost]*'online_sales_dataset'[ExchangeRate]))
+    ) 
     
     
 
