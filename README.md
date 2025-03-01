@@ -1,7 +1,7 @@
 # PowerBIproject
 # E-Commerce Retail Sales Report
 
-Problem Statement
+# Problem Statement
 This dashboard provides comprehensive insights into e-commerce retail sales performance, enabling businesses to better understand customer behavior, sales trends, and areas for improvement. By leveraging historical data from 2020 to 2025, the dashboard can forecast sales, profit, and other key metrics up to 2030. With 49,782 rows of data, it includes detailed columns such as Country, Customer ID, Description, Discount, Exchange Rate, Invoice Time, Date, Return Status, Sales, Payment Method, Shipping Cost, and more. A currency converter table ensures all values are standardized to USD, while a date table ensures continuous date ranges for accurate analysis. The analysis reveals that nearly 57% of customers are neutral or dissatisfied with their purchase experience, while only 43% are satisfied. This highlights the need for the business to focus on improving customer satisfaction by addressing issues such as product quality, delivery times, or return policies. Additionally, the dashboard identifies opportunities to optimize shipping costs and discount strategies to enhance profitability. By leveraging this dashboard, the e-commerce business can:
 
 *Identify trends and forecast future sales and profit up to 2030.
@@ -12,7 +12,7 @@ This dashboard provides comprehensive insights into e-commerce retail sales perf
 
 *Enhance decision-making by understanding customer preferences and purchasing behavior.
 
-Steps followed
+# Steps followed
 Step 1: Import the CSV dataset into Power BI Desktop.
 
 Step 2:Handle null values (if any) in key columns like "Sales" or "Shipping Cost".Ignore nulls for calculations (e.g., average discount or shipping cost).
