@@ -1,3 +1,4 @@
+![Ship](https://github.com/user-attachments/assets/6314fa6c-fc9e-4f70-b2a2-328f4fea1876)
 # PowerBIproject
 # E-Commerce Retail Sales Report
 
@@ -85,6 +86,8 @@ for creating NewColumn following DAX expression was written;
             ('online_sales_dataset'[ShippingCost]/'online_sales_dataset'[ExchangeRate]),
             ('online_sales_dataset'[ShippingCost]*'online_sales_dataset'[ExchangeRate]))
     )
+    
+    ![Ship](https://github.com/user-attachments/assets/20540b8f-7b6e-4f3b-972f-812a89f269ec)
 
 
     
