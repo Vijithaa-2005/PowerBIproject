@@ -1,4 +1,3 @@
-![Ship](https://github.com/user-attachments/assets/6314fa6c-fc9e-4f70-b2a2-328f4fea1876)
 # PowerBIproject
 # E-Commerce Retail Sales Report
 
