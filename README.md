@@ -88,7 +88,8 @@ for creating NewColumn following DAX expression was written;
     
 # ShippingCost
 
-    ![Ship](https://github.com/user-attachments/assets/d99e9161-e379-493c-ac17-c8e497075ad0)
+   ![Ship](https://github.com/user-attachments/assets/0a39605c-fc5c-4564-9072-b236669e0b4b)
+
 
 
 
