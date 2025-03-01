@@ -37,7 +37,7 @@ Step 11 : In the report view, under the insert tab, one text boxes were added to
 
 Step 12 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted was added to the report design area.
 
-Step 13 : Create a Newcolumn named currency Exchange Rate Table
+Step 13 : Create a Newcolumn named Sales in USD
 
 for creating NewColumn following DAX expression was written;
 
@@ -74,7 +74,7 @@ for creating NewColumn following DAX expression was written;
             ('online_sales_dataset'[Net Income]*'online_sales_dataset'[ExchangeRate]))
     ) 
 
-Step 17 : Create a Newcolumn named Profit in USD convert the currency to Dollars
+Step 17 : Create a Newcolumn named ShippingCost in USD convert the currency to Dollars
 
 for creating NewColumn following DAX expression was written;
 
@@ -84,7 +84,9 @@ for creating NewColumn following DAX expression was written;
             IF('online_sales_dataset'[ExchangeRate]>1,
             ('online_sales_dataset'[ShippingCost]/'online_sales_dataset'[ExchangeRate]),
             ('online_sales_dataset'[ShippingCost]*'online_sales_dataset'[ExchangeRate]))
-    ) 
+    )
+
+
     
     
 
