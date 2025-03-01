@@ -56,6 +56,29 @@ for creating NewColumn following DAX expression was written;
 
   ![Currency_Conversion_Table](https://github.com/user-attachments/assets/84fde81c-7a5c-4ec3-9606-95ba66202664)
 
+  Step 15 : NewTable was created to find Currency Conversion for each Country.
+
+  DateTable = 
+VAR StartDate = DATE(2020, 1, 1)  // Start date of your date range
+VAR EndDate = DATE(2025, 12, 31)  // End date of your date range
+VAR DateRange = CALENDAR(StartDate, EndDate)  // Generates a continuous date range
+RETURN
+ADDCOLUMNS(
+    DateRange,
+    "Year", YEAR([Date]),
+    "Month", MONTH([Date]),
+    "Day", DAY([Date]),
+    "Quarter", QUARTER([Date]),
+    "Month Name", FORMAT([Date], "MMMM"),
+    "Weekday", WEEKDAY([Date]),
+    "Weekday Name", FORMAT([Date], "dddd"),
+    "Week of Year", WEEKNUM([Date]),
+    "Is Weekend", IF(WEEKDAY([Date], 2) > 5, TRUE(), FALSE())
+)
+
+![DateTable](https://github.com/user-attachments/assets/ec3310cc-f9ab-4202-a1db-82883dffb032)
+
+
 
 
 
